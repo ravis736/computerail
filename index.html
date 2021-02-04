@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is a Project Website</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Balsamiq Sans', cursive;
+        }
+
+        #nav-container {
+            position: sticky;
+            top: 0;
+        }
+
+        .navbar .icon img {
+            position: absolute;
+            margin: 5px 5px;
+            width: 39px;
+            left: 54px;
+            border: 2px solid rgb(26, 218, 252);
+            padding: 5px 35px;
+            border-radius: 7px;
+        }
+
+        .navbar ul {
+            display: flex;
+            list-style: none;
+            justify-content: flex-end;
+            position: relative;
+            right: 20px;
+        }
+
+        .navbar ul li a {
+            display: flex;
+            text-decoration: none;
+            padding: 1px 12px;
+            margin: 17px 26px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: rgb(26, 218, 252);
+        }
+
+        #nav-container::before {
+            content: "";
+            background-color: black;
+            position: absolute;
+            height: 63px;
+            width: 100%;
+            opacity: 0.5;
+        }
+
+        /* banner-home */
+
+        #banner-home {
+            background-color: rgb(26, 218, 252);
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            z-index: -1;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            color: rgb(206, 19, 143);
+            flex-direction: row-reverse;
+        }
+
+        h1 {
+            margin-bottom: 22px;
+            margin-top: 180px;
+        }
+
+        p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        table {
+            color: blue;
+        }
+
+        table .info {
+            padding-right: 44px;
+            color: brown;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav id="nav-container">
+        <div class="navbar">
+            <div class="icon">
+                <img src="elearning.png" alt="This is an icon image">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="abstract.html" target="_blank">Abstract</a></li>
+                <li><a href="similarities.html" target="_blank">Similarities</a></li>
+                <li><a href="differences.html" target="_blank">Differences</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="banner-home">
+        <div class="left">
+            <h1>This is a Project of Computer AIL <br> In Arunachal Pradesh and Meghalaya States</h1>
+            <table>
+                <tr>
+                    <td class="info">Submitted By-</td>
+                    <td>Asmita Srivastav</td>
+                </tr>
+                <tr>
+                    <td class="info">Roll No.-</td>
+                    <td>09</td>
+                </tr>
+                <tr>
+                    <td class="info">Class-</td>
+                    <td>IX D</td>
+                </tr>
+                <tr>
+                    <td class="info">School-</td>
+                    <td>Ryan Internation School, Greater Noida</td>
+                </tr>
+                <tr>
+                    <td class="info">Submitted To-</td>
+                    <td>Priyanka Ma'am</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+</body>
+
+</html>

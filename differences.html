@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is a Project Website</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Balsamiq Sans', cursive;
+        }
+
+        #nav-container {
+            position: sticky;
+            top: 0;
+        }
+
+        .navbar .icon img {
+            position: absolute;
+            margin: 5px 5px;
+            width: 39px;
+            left: 54px;
+            border: 2px solid rgb(26, 218, 252);
+            padding: 5px 35px;
+            border-radius: 7px;
+        }
+
+        .navbar ul {
+            display: flex;
+            list-style: none;
+            justify-content: flex-end;
+            position: relative;
+            right: 20px;
+        }
+
+        .navbar ul li a {
+            display: flex;
+            text-decoration: none;
+            padding: 1px 12px;
+            margin: 17px 26px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: rgb(26, 218, 252);
+        }
+
+        #nav-container::before {
+            content: "";
+            background-color: black;
+            position: absolute;
+            height: 63px;
+            width: 100%;
+            opacity: 0.5;
+        }
+
+        /* banner-home */
+
+        #banner-home {
+            background-color: rgb(26, 218, 252);
+            margin-top: -62px;
+        }
+
+        .banner-abstract .container {
+            margin-top: 62px;
+        }
+
+        .banner-abstract {
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            color: white;
+            flex-direction: row-reverse;
+        }
+
+        .container ul {
+            margin: 40px;
+            font-size: 23px;
+            color: rgb(167, 109, 35);
+            font-weight: bolder;
+            list-style-type: square;
+        }
+
+        p {
+            font-size: 20px;
+            margin: 20px;
+            text-align: justify;
+        }
+
+        table,
+        th,
+        td {
+            border: 2px solid grey;
+            border-collapse: collapse;
+        }
+
+        table {
+            width: 80%;
+            margin: 50px auto;
+            font-size: 25px;
+            border: 5px solid grey;
+        }
+
+        th,
+        td {
+            padding: 5px;
+        }
+
+        th {
+            text-align: left;
+            color: rgb(46, 143, 8);
+        }
+
+        table td {
+            color: rgb(69, 69, 182);
+        }
+
+        table .field {
+            font-weight: bold;
+            color: rgb(134, 18, 18);
+        }
+
+        .container h3 {
+            margin: 0 20px;
+            font-size: 25px;
+            color: rgb(128, 4, 0);
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav id="nav-container">
+        <div class="navbar">
+            <div class="icon">
+                <img src="elearning.png" alt="This is an icon image">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="abstract.html" target="_blank">Abstract</a></li>
+                <li><a href="similarities.html" target="_blank">Similarities</a></li>
+                <li><a href="differences.html" target="_blank">Differences</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="banner-home">
+        <div class="banner-abstract">
+            <div class="container">
+                <p>
+                    Meghalaya is paired with the State of Uttar Pradesh and Arunachal Pradesh under the “Ek Bharat
+                    Shrestha Bharat” programme for the year 2019-2020. As part of the unifying campaign the Institute of
+                    Hotel Management, Catering Technology and Applied Nutrition, Shillong in association with the India
+                    Tourism organized the Uttar Pradesh cuisine festival at IHM campus, Mawdiangdiang, Shillong.
+                </p>
+                <p>
+                    If there are similarities in both Arunachal Pradesh and Meghalaya then there are some Differences
+                    also according to the Indian government.
+                </p>
+                <h3>
+                    Following are the fields in which both states are differ to each other-
+                </h3>
+
+                <ul>
+                    <li>GDP</li>
+                    <li>Location</li>
+                    <li>Food</li>
+                    <li>Culture</li>
+                    <li>Population</li>
+                </ul>
+
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Meghalaya</th>
+                        <th>Arunachal Pradesh</th>
+                    </tr>
+                    <tr>
+                        <td class="field">GDP</td>
+                        <td>370 billions</td>
+                        <td>299.74 lakh cr.</td>
+                    </tr>
+                    <tr>
+                        <td class="field">Location</td>
+                        <td>25.4670&deg;N 91.3662&deg;E</td>
+                        <td>28.2180&deg;N 94.7278&deg;E</td>
+                    </tr>
+                    <tr>
+                        <td class="field">Food</td>
+                        <td>Rice with spicy Meat & Fish</td>
+                        <td>Rice with less spicy Meat & Fish</td>
+                    </tr>
+                    <tr>
+                        <td class="field">Culture</td>
+                        <td>Khasis, Garo & Bintia</td>
+                        <td>Follows Bhuddism</td>
+                    </tr>
+                    <tr>
+                        <td class="field">Population</td>
+                        <td>3772452</td>
+                        <td>1748873</td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

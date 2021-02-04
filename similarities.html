@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is a Project Website</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Balsamiq Sans', cursive;
+        }
+
+        #nav-container {
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+
+        .navbar .icon img {
+            position: absolute;
+            margin: 5px 5px;
+            width: 39px;
+            left: 54px;
+            border: 2px solid rgb(26, 218, 252);
+            padding: 5px 35px;
+            border-radius: 7px;
+        }
+
+        .navbar ul {
+            display: flex;
+            list-style: none;
+            justify-content: flex-end;
+            position: relative;
+            right: 20px;
+        }
+
+        .navbar ul li a {
+            display: flex;
+            text-decoration: none;
+            padding: 1px 12px;
+            margin: 17px 26px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: rgb(26, 218, 252);
+        }
+
+        #nav-container::before {
+            content: "";
+            background-color: black;
+            position: absolute;
+            height: 63px;
+            width: 100%;
+            opacity: 0.5;
+        }
+
+        /* banner-home */
+
+        #banner-home {
+            background-color: rgb(26, 218, 252);
+            margin-top: -62px;
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .banner-abstract .container1 {
+            margin-top: 62px;
+        }
+
+        .banner-abstract {
+            font-size: 30px;
+            justify-content: center;
+            color: white;
+        }
+
+        .banner-abstract img {
+            width: 15rem;
+            height: 15rem;
+            float: right;
+            margin: 0.5rem 1rem;
+            clip-path: circle();
+            shape-outside: circle();
+        }
+
+        p {
+            font-size: 20px;
+            margin: 20px;
+            text-align: justify;
+        }
+
+        .container1 h3 {
+            margin: 0 20px;
+            font-size: 30px;
+            color: rgb(128, 4, 0);
+        }
+
+        .container1 ul {
+            margin: 40px;
+            font-size: 20px;
+            color: rgb(90, 77, 77);
+        }
+
+        .container1 h5 {
+            margin: 0 20px;
+            color: rgb(11, 100, 11);
+        }
+
+        .container1 .para {
+            color: white;
+        }
+
+        .container1 .simi {
+            color: rgb(167, 109, 35);
+            font-weight: bolder;
+            list-style-type: square;
+        }
+
+        p {
+            color: rgb(148, 23, 106);
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav id="nav-container">
+        <div class="navbar">
+            <div class="icon">
+                <img src="elearning.png" alt="This is an icon image">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="abstract.html" target="_blank">Abstract</a></li>
+                <li><a href="similarities.html" target="_blank">Similarities</a></li>
+                <li><a href="differences.html" target="_blank">Differences</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="banner-home">
+        <div class="banner-abstract">
+            <div class="container1">
+                <p class="para">
+                    The region receives an annual average rainfall of 2000 mm accounting for about 10 percent of the
+                    country’s total precipitation. The soil of the region is acidic to strongly acidic in nature
+                    accounting 70 percent of the total geographical area Low soil pH is basically due to leaching of the
+                    bases under the influence of heavy precipitation. Soils are rich in organic matter. About 82 percent
+                    population depends on agriculture.
+
+                </p>
+
+                <h3>Both Arunachal Pradesh and Meghalaya are rich in Natural Resources in the form of-</h3>
+
+                <ul class="simi">
+                    <li>Forest</li>
+                    <li>Agriculture Land</li>
+                    <li>Rivers</li>
+                    <li>Medical Plants</li>
+                    <li>Aromatic Plants</li>
+                    <li>Fish Germplasm including Ornamental</li>
+                </ul>
+
+                <div class="forest">
+                    <h5>Forest Resources </h5>
+                    <img src="forest.jpg" alt="Forest Image">
+                    <p>
+                        The region is rich in orchids, ferns, oaks (Quercusspp.), bamboos, rhododendrons (Rhododendron
+                        spp.), magnolias (Magnolia spp.), foliage plants etc. The region is rich in medicinal plants and
+                        many other rare and endangered taxa
+                    </p>
+                    <p>The following figures highlight the biodiversity significance of the region:</p>
+                    <ul>
+                        <li>51 Forest types are found in the region broadly classified into six major forest types viz.,
+                            tropical moist deciduous forests, tropical semi evergreen forests, tropical wet evergreen
+                            forests, subtropical forests, temperate forests and alpine forests.
+                        </li>
+                        <li>
+                            These forests harbour 80, 00 out of 15,000 species of flowering plants.
+                        </li>
+                    </ul>
+                    <p>
+                        There are very interesting areas in the region that are termed as ‘Isolation Belts’ that have
+                        led to the isolation of certain species.
+                    </p>
+                </div>
+
+                <div class="agri">
+                    <h5>Agriculture Land</h5>
+                    <img src="agri.jpg" alt="Agriculture Land Image">
+                    <p>
+                        Both states are one of the hotspot of mega biodiversity centre of the world which falls in
+                        between Eastern Himalayan belt and Indo-Burmese Region. The regions are rich both in terms of
+                        primary and secondary crop diversities. Some major crops are-
+                    </p>
+                    <ul>
+                        <li>Cereal</li>
+                        <li>Maize</li>
+                        <li>Barley</li>
+                        <li>Grain Legumes</li>
+                        <li>Oilseeds</li>
+                        <li>Vegetables</li>
+                        <li>Tuber Crops</li>
+                        <li>Spices</li>
+                        <li>Fruits</li>
+                    </ul>
+                </div>
+
+                <div class="river">
+                    <h5>Rivers</h5>
+                    <img src="river.jpg" alt="River Image">
+                    <p>
+                        The rivers of India play an important role in the lives of the Indian people. The river systems
+                        provide irrigation, potable water, cheap transportation, electricity, as well as provide
+                        livelihoods for a large number of people all over the country. This easily explains why nearly
+                        all the major cities of India are located by the banks of river. The rivers also have an
+                        important role in Hindu mythology and are considered holy by all Hindus in the country.
+                        <br><br> River which is flows in both regions is Brahmaputra. <br><br>
+                        The Brahmaputra originates in the Mansarovar lake, also the source of the Indus and the Satluj.
+                        It is slightly longer than the Indus, but most of its course lies outside India. It flows
+                        eastward, parallel to the Himalayas. Reaching Namcha Barwa (7757 m), it takes a U-turn around it
+                        and enters India in Arunachal Pradesh and known as dihang. The undercutting done by this river
+                        is of the order of 5500 metres. In India, it flows through Arunachal Pradesh and Assam, and is
+                        joined by several tributaries.
+                    </p>
+                </div>
+
+
+                <div class="medi">
+                    <h5>Medicinal and Aromatic Plants</h5>
+                    <img src="medi.jpg" alt="Medical Plants Images">
+                    <p>
+                        North-eastern region provides a varied eco-climate and perhaps due to this, a large number plant
+                        species and their diversities exist. Altitude wise the region can be classified in to four (4)
+                        zones i.e. Tropical, Sub-tropical. Temperate and Alpine, which are the habitats for occurrence
+                        and suitable for ex-situ cultivation practice.
+                    </p>
+                    <ul>
+                        <li>Plantagoerosa</li>
+                        <li>Adhatodavesica</li>
+                        <li>Andrographispaniculata</li>
+                        <li>Withaniasomnifera</li>
+                        <li>Vitextrifolia</li>
+                    </ul>
+                </div>
+
+                <div class="fish">
+                    <h5>Fish Germplasm including Ornamental</h5>
+                    <img src="fish.jpg" alt="Fish Image">
+                    <p>
+                        It is a multi-purpose water management system, which integrates land, water and farming system
+                        by protecting soil erosion, conserving water for irrigation and paddy-cum-fish culture. To
+                        prevent trashes of migration of fish, a semi-circular wooden/bamboo net is installed at the
+                        inlet to reduce beating action of flowing water regulating in soil erosion; wooden strikes of
+                        planks are put at the outlet.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
